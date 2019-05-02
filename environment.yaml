@@ -1,4 +1,4 @@
-name: dmel_pacbio
+name: dmel_larval_pacbio
 channels:
   - jfear
   - bioconda
@@ -436,5 +436,5 @@ dependencies:
   - mkl=2017.0.3
   - wget=1.18
   - lcdblib=0.1.3
-prefix: /home/fearjm/miniconda3/envs/dmel_pacbio
+prefix: /home/fearjm/miniconda3/envs/dmel_larval_pacbio
 

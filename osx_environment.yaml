@@ -1,4 +1,4 @@
-name: dmel_pacbio
+name: dmel_larval_pacbio
 channels:
   - jfear
   - bioconda
@@ -427,5 +427,5 @@ dependencies:
   - font-ttf-dejavu-sans-mono=2.37
   - mkl=2017.0.3
   - wget=1.18
-prefix: /home/fearjm/miniconda3/envs/dmel_pacbio
+prefix: /home/fearjm/miniconda3/envs/dmel_larval_pacbio
 
