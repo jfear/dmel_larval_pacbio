@@ -1,11 +1,3 @@
-bax2bam:
-  subreads:
-    bam: '{output_dir}/{sample}/{run}/{run}.subreads.bam'
-    pbi: '{output_dir}/{sample}/{run}/{run}.subreads.bam.pbi'
-  scraps:
-    bam: '{output_dir}/{sample}/{run}/{run}.scraps.bam'
-    pbi: '{output_dir}/{sample}/{run}/{run}.scraps.bam.pbi'
-
 ccs:
   bam: '{output_dir}/{sample}/{run}/{run}.ccs.bam'
   pbi: '{output_dir}/{sample}/{run}/{run}.ccs.bam.pbi'

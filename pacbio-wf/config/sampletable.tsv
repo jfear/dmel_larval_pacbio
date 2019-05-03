@@ -1,7 +1,11 @@
-run	sample	sex	tissue	sizeBin	original_file																			
-ARL0001_2	l3_testes	male	testes	1-2kb	"../data/	"																			
-ARL0001_2	l3_testes	male	testes	2-3 kb																				
-ARL0001_3	w1118_wfem1	female	whole	3-6 kb																				
-ARL0002_1	w1118_wmal1	male	whole	1-2 kb																				
-ARL0002_2	w1118_wmal1	male	whole	2-3 kb																				
-																								
+run	sample	sex	tissue	sizeBin	original_file
+ARL0005_1	l3_testes	male	testes	1-2kb	../data/DATA_20190321/1.L3_Testes/m54313_190318_144309.subreads.bam
+ARL0005_2	l3_testes	male	testes	3-5kb	../data/DATA_20190402/1.L3_Testes/ARL0005_2/SMRTCell_1371/m54313_190325_182247.subreads.bam
+ARL0006_1	l3_ovary	female	ovaries	1-2kb	../data/DATA_20190321/2.L3_Ovaries/m54313_190319_105753.subreads.bam
+ARL0006_2	l3_ovary	female	ovaries	3-5kb	../data/DATA_20190402/2.L3_Ovaries/ARL0006_2/SMRTCell_1372/m54313_190327_162611.subreads.bam
+ARL0007_1	l3_tra_null	female	ovaries	1-2kb	../data/DATA_20190402/3.XX_tra_nul/ARL0007_1/SMRTCell_1368/m54313_190322_154358.subreads.bam
+ARL0007_2	l3_tra_null	female	ovaries	3-5kb	../data/DATA_20190402/3.XX_tra_nul/ARL0007_2/SMRTCell_1373/m54313_190328_124046.subreads.bam
+ARL0008_1	l3_tra_ectopic	male	testes	1-2kb	../data/DATA_20190402/4.XY_tra_ec/ARL0008_1/SMRTCell_1369/m54313_190323_115836.subreads.bam
+ARL0008_2	l3_tra_ectopic	male	testes	3-5kb	../data/DATA_20190402/4.XY_tra_ec/ARL0008_2/SMRTCell_1374/m54313_190329_085534.subreads.bam
+ARL0009_1	l3_DsxM	female	ovaries	1-2kb	../data/DATA_20190402/5.XX_DsxM/ARL0009_1/SMRTCell_1370/m54313_190324_081328.subreads.bam
+ARL0009_2	l3_DsxM	female	ovaries	3-5kb	../data/DATA_20190402/5.XX_DsxM/ARL0009_2/SMRTCell_1375/m54313_190330_051000.subreads.bam
