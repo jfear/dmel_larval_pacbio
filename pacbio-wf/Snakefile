@@ -47,7 +47,7 @@ rule ccs:
     threads: 28
     resources:
         mem_gb = lambda wildcards, attempt: attempt * 12,
-        time_hr = lambda wildcards, attempt: attempt * 4
+        time_hr = lambda wildcards, attempt: attempt * 72
     shell:
         """
         ccs \
