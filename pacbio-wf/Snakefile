@@ -167,7 +167,7 @@ rule isoseq3_polish:
     threads: 32
     resources:
         mem_gb = lambda wildcards, attempt: attempt * 12,
-        time_hr = lambda wildcards, attempt: attempt * 36
+        time_hr = lambda wildcards, attempt: attempt * 48
     shell:
         "isoseq3 polish {input.unpolished} {input.subreads} {params.bam} -j {threads}"
 
