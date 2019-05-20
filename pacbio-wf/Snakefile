@@ -166,8 +166,8 @@ rule isoseq3_polish:
         'config/pacbio_tools.yaml'
     threads: 32
     resources:
-        mem_gb = lambda wildcards, attempt: attempt * 12,
-        time_hr = lambda wildcards, attempt: attempt * 48
+        mem_gb = lambda wildcards, attempt: attempt * 36,
+        time_hr = lambda wildcards, attempt: attempt * 96
     shell:
         "isoseq3 polish {input.unpolished} {input.subreads} {params.bam} -j {threads}"
 
